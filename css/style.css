@@ -142,3 +142,55 @@ body {
 .footer a {
     color: white;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .navigation {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .nav-left ul li a {
+    color: #ffffff;
+}
+
+.dark-mode .form-input {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.dark-mode .btn {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.dark-mode .home-articles {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .home-article-content a {
+    color: #64b5f6;
+}
+
+/* Adjustments for the dark mode toggle button */
+#darkModeToggle {
+
+    background-color: rgb(33, 192, 33);
+    color: white;
+    border: none;
+    padding: 1px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 2px 4px darkslategray;
+    margin-top: 4px;
+    margin-left: 10px;
+}
